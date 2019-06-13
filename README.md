@@ -1,5 +1,9 @@
 # ORB Algorithm (Oriented Fast and Rotated Brief)
 
+## Demo - Object detection & tracking
+
+![alt text](https://github.com/dilipajm/orb-demo/blob/master/data/result_vid.gif)
+
 ## Installation using Docker
     docker-compose up
 
@@ -7,11 +11,11 @@
     pip install -r requirements.txt
 
 ## Run
-   python3 video_orb.py
+    python3 video_orb.py
 
-   OR
+    OR
 
-   In jupyter notebook, open image_orb.ipynb
+    In jupyter notebook, open image_orb.ipynb
 
 ## Step 1 - Find ORB descriptors (feature keypoints) on training image
 
@@ -20,7 +24,3 @@
 ## Step 2 - Matching keypoints on test image or video
 
 ![alt text](https://github.com/dilipajm/orb-demo/blob/master/data/result2.png)
-
-## Demo
-
-![alt text]()
