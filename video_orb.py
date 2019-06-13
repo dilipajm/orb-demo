@@ -21,7 +21,7 @@ while cam.isOpened():
         matches = sorted(matches, key = lambda x: x.distance)
         result = cv2.drawMatches(training_image, kp_train, query_image, kp_query, matches[:200], query_image, flags = 2)
 
-        cv2.imshow('Affekta',result)
+        cv2.imshow('Video',result)
     else:
         print('no frames available')
 
